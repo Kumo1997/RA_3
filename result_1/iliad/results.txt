@@ -1,0 +1,19 @@
+Actual Cardinality: 8925
+
+--- HyperLogLog Results ---
+   b_value  hll_avg_estimate  ...  hll_execution_time  actual_cardinality
+0        8             551.0  ...            0.396769                8925
+1       10            2213.0  ...            0.403045                8925
+2       12            8897.2  ...            0.395956                8925
+3       14            8944.0  ...            0.386250                8925
+4       16            8941.0  ...            0.389571                8925
+
+[5 rows x 5 columns]
+
+--- Recordinality (REC) Results ---
+   k_value  rec_avg_estimate    rec_se  rec_execution_time  actual_cardinality
+0        8       3248.889778  0.353553            2.321908                8925
+1       16       8240.393884  0.250000            4.306298                8925
+2       32       7196.923266  0.176777            7.876605                8925
+3       64       5068.835684  0.125000          196.553542                8925
+4      128       7914.393590  0.088388           84.379799                8925

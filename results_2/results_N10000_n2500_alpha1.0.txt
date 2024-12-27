@@ -1,0 +1,40 @@
+
+--- HyperLogLog Results (Varying b) ---
+
+HLL with b=8:
+  Estimated Cardinality: 637.8
+  Absolute Variation: 1862.2
+  Standard Deviation: 260.4000
+  Average Execution Time: 0.0312 seconds
+  Theoretical Standard Error: 0.0449
+
+HLL with b=10:
+  Estimated Cardinality: 2099.3
+  Absolute Variation: 400.6999999999998
+  Standard Deviation: 172.1784
+  Average Execution Time: 0.0313 seconds
+  Theoretical Standard Error: 0.0225
+
+HLL with b=12:
+  Estimated Cardinality: 1626.2
+  Absolute Variation: 873.8
+  Standard Deviation: 214.0088
+  Average Execution Time: 0.0315 seconds
+  Theoretical Standard Error: 0.0113
+
+HLL with b=14:
+  Estimated Cardinality: 1507.8
+  Absolute Variation: 992.2
+  Standard Deviation: 127.6783
+  Average Execution Time: 0.0321 seconds
+  Theoretical Standard Error: 0.0056
+
+HLL with b=16:
+  Estimated Cardinality: 1581.8
+  Absolute Variation: 918.2
+  Standard Deviation: 2.6758
+  Average Execution Time: 0.0345 seconds
+  Theoretical Standard Error: 0.0028
+
+--- Recordinality (REC) Results (Varying k) ---
+Actual Cardinality: 2500
